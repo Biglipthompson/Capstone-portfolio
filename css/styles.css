@@ -8,3 +8,25 @@
 .display-4{
     text-shadow: 5px 5px 5px rgb(66, 65, 65);
 }
+
+.card{
+    margin-bottom: 100px;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+
+.copy,
+.email,
+.social-svgs {
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+a:hover{
+    color: yellow;
+}
+
