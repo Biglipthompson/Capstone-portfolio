@@ -1,5 +1,9 @@
+body{
+    background: linear-gradient(black, rgb(110, 110, 110));
+}
+
 .display-4{
-    text-shadow: 5px 5px 5px rgb(66, 65, 65);
+    text-shadow: 7px 7px 7px rgb(48, 48, 48);
 }
 .profile-img{
     transition-property: transform;
@@ -23,8 +27,6 @@
 .profile-txt{
     color: black;
 }
-.intro
-
 .about-me{
     border-bottom: solid 2px black;
     width: 90%;
@@ -36,6 +38,10 @@
     border-bottom: white 1px solid;
     width: 90%;
     margin: auto;
+}
+
+.projects{
+    margin-bottom: 25px;
 }
 
 .card{
@@ -64,7 +70,6 @@ h1{
     transition-duration: .2s;
     transition-timing-function: linear;
 }
-
 .copy,
 .email,
 .social-svgs {
@@ -72,6 +77,20 @@ h1{
     color: white;
     margin: 0px;
 }
+
+.email{
+    color: black;
+}
+.email:hover{
+    color:yellow;
+}
+
+.copy{
+    background: linear-gradient(black, rgb(110, 110, 110)); 
+    color: white;
+}
+
+
 
 .bi-linkedin,
 .bi-twitter,
