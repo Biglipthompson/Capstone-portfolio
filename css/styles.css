@@ -5,13 +5,11 @@ body{
 .display-4{
     text-shadow: 7px 7px 7px rgb(48, 48, 48);
 }
-
 .nav-link{
     transition-property: transform;
     transform: 1s;
     transition-duration: 3s;
     transition-timing-function: ease;
-
 }
 
 .profile-img{
@@ -36,6 +34,9 @@ body{
     width: 90%;
     margin: auto;
     margin-bottom: 40px;
+}
+.treehouse{
+    height: 15px;
 }
 .bar{
     width: 90%;
@@ -115,12 +116,50 @@ margin-bottom: 3px;
 .bi-instagram {
     margin: 10px;
 }
-
-@media(min-width: 1024px){
-
+.bar-2{
+    border-bottom:  solid 1px white;
+    width: 90%;
 }
 
+.skillshtml,
+.skillscss{
+    height: 80px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.skills{
+    height: 100px;
+    text-align: center;
+} 
 
+
+
+@media(min-width: 1024px){
+/* .middle{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+
+/* .about-me{
+width: 48%;
+text-align: center;
+}
+
+.skills-section{
+display: flex;
+flex-direction: row;
+}
+ */
+
+.bar,
+.bar-2{
+    visibility: hidden;
+    }
+}
 
 
 
