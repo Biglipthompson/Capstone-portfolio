@@ -154,10 +154,12 @@ margin-bottom: 3px;
 }
 
 @media(min-width: 1024px){
-
 .bar,
 .bar-2{
     visibility: hidden;
+    }
+    .jumbotron{
+        width: 100%;
     }
 }
 
