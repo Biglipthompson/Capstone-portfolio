@@ -78,19 +78,20 @@ body{
     transition-duration: .2s;
     transition-timing-function: linear;
 }
-
-.card{
-margin-bottom: 5px;
-}
-
 .cards{
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     color: black;
     background-color: white;
     transition-property: transform;
     transition-duration: .2s;
     transition-timing-function: linear;
 }
+
+.card{
+margin-bottom: 5px;
+}
+
+
 h1{
     margin-top: 20px;
 }
@@ -138,6 +139,11 @@ margin-bottom: 3px;
     background: linear-gradient(black, rgb(110, 110, 110)); 
     color: white;
 }
+
+.middle{
+    width: 95%;
+    margin: auto;
+}
 .bi-linkedin,
 .bi-twitter,
 .bi-github,
@@ -162,9 +168,12 @@ margin-bottom: 3px;
 } 
 
 @media(min-width: 768px){
-.row{
-    width: 95%;
-    margin: auto;
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cards{
+        margin-bottom: 30px;
     }
 }
 
@@ -175,6 +184,11 @@ margin-bottom: 3px;
     }
     .jumbotron{
         width: 100%;
+    }
+
+    .grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     }
 }
 
