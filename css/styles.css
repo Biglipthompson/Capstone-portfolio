@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -29,6 +29,7 @@ body{
 
 .portfolio{
     margin-right: auto;
+    margin-bottom: auto;
 }
 .profile-img{
     transition-property: transform;
