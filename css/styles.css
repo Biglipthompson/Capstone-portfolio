@@ -2,6 +2,16 @@ html{
     scroll-behavior: smooth;
 }
 
+.resume a{
+    font-family: 'Redressed', cursive;  
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.resume:hover{
+    color: yellow;
+}
 body{
     background: linear-gradient(black, rgb(110, 110, 110));
 }
@@ -125,8 +135,10 @@ margin-bottom: 3px;
     margin-bottom: 15px;
 }
 .email{
+    font-family: 'Redressed', cursive;  
+    font-size: 30px;
     color: black;
-    margin-bottom: 8px;
+    margin-bottom: 7px;
 }
 .email:hover{
     color:yellow;
@@ -164,27 +176,58 @@ margin-bottom: 3px;
 } 
 
 @media(min-width: 768px){
-    .grid{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .cards{
-        margin-bottom: 30px;
-    }
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
+.cards{
+    margin-bottom: 30px;
+}
+.email{
+    font-family: 'Redressed', cursive;  
+    font-size: 30px;
+    /* margin: 10px; */
+    display: flex;
+    /* float: right; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 @media(min-width: 1024px){
 .bar,
 .bar-2{
     visibility: hidden;
-    }
-    .jumbotron{
-        width: 100%;
-    }
-
-    .grid{
+}
+.jumbotron{
+    width: 100%;
+}
+.grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    }
+
+.resume {
+    font-family: 'Redressed', cursive;  
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+.email{
+    display: flex;
+}
+
+.resume:hover{
+    color: yellow;
+}
+
+.bi-briefcase{
+        justify-content: column;
     }
 }
 
