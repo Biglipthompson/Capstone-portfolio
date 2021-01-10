@@ -1,7 +1,6 @@
 html{
     scroll-behavior: smooth;
 }
-
 .resume a{
     font-family: 'Redressed', cursive;  
     color: black;
@@ -15,7 +14,10 @@ html{
 body{
     background: linear-gradient(black, rgb(110, 110, 110));
 }
-
+.intro-p{
+    width: 90%;
+    margin: auto;
+}
 .display-4{
     text-shadow: 7px 7px 7px rgb(48, 48, 48);
 }
@@ -24,18 +26,14 @@ body{
     transition-duration: 3s;
     transition-timing-function: ease;
 }
-
 .alert{
     height: 35px;
     padding: 5px;
 }
-
 .alert-banner-close{
     float: right;
     text-align: center;
-
 }
-
 .profile-img{
     transition-property: transform;
     transition-duration: .3s;
@@ -175,6 +173,8 @@ margin-bottom: 3px;
     text-align: center;
 } 
 
+
+/* TABLET SIZED MEDIA QUERY */
 @media(min-width: 768px){
 .grid{
     display: grid;
@@ -192,10 +192,14 @@ margin-bottom: 3px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    }
 }
 
 
 
+
+
+/* DESKTOP SIZED MEDIA QUERY */
 @media(min-width: 1024px){
 .bar,
 .bar-2{
@@ -204,11 +208,33 @@ margin-bottom: 3px;
 .jumbotron{
     width: 100%;
 }
+.td,
+.resume-img {
+    width: 90%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    height: 375px;
+    width: 450px;
+}
+/* .grid-exp{
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* width: 90%;
+    margin: auto; */
+
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    }
-
+}
+.email{
+    display: flex;
+}
+.resume:hover{
+    color: yellow;
+}
+.bi-briefcase{
+    justify-content: column;
+}
 .resume {
     font-family: 'Redressed', cursive;  
     font-size: 30px;
@@ -217,21 +243,6 @@ margin-bottom: 3px;
     padding: 10px;
     align-items: center;
 }
-
-.email{
-    display: flex;
 }
-
-.resume:hover{
-    color: yellow;
-}
-
-.bi-briefcase{
-        justify-content: column;
-    }
-}
-
-
-
-
+    
 
