@@ -242,6 +242,12 @@ margin-bottom: 3px;
     justify-content: center;
     padding: 10px;
     align-items: center;
+    }   
+.form-section{
+    background-color: black;
+    border-top: white 2px solid;
+    height: 500px;
+    margin-top: 10px;
 }
 }
     
