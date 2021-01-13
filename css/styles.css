@@ -1,6 +1,10 @@
+*{
+    overflow-x: hidden;
+}
 html{
     scroll-behavior: smooth;
 }
+
 .resume a{
     font-family: 'Redressed', cursive;  
     color: black;
@@ -91,6 +95,14 @@ body{
     transition-timing-function: linear;
 }
 
+.mid{
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
 .card{
 margin-bottom: 5px;
 }
@@ -172,6 +184,12 @@ margin-bottom: 3px;
     height: 100px;
     text-align: center;
 } 
+.form-section{
+    background-color: black;
+    border-top: white 2px solid;
+    height: 250px;
+    margin-top: 10px;
+}
 
 
 /* TABLET SIZED MEDIA QUERY */
@@ -246,7 +264,7 @@ margin-bottom: 3px;
 .form-section{
     background-color: black;
     border-top: white 2px solid;
-    height: 500px;
+    height: 400px;
     margin-top: 10px;
 }
 }
